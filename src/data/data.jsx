@@ -43,28 +43,13 @@ export const personalDataObj = {
         },
         {
             id: 3,
-            img: 'https://i.postimg.cc/0yX8LYxx/gaming.png',
+            img: 'https://i.postimg.cc/5NTDZyTs/Screenshot-2024-10-07-220334.png',
             title: "World Visit Project ",
             desc: "",
             link: "https://practice-game-site-project-reactjs.netlify.app/",
             git: "https://github.com/Deksha-chaudhary/travel_World.git",
         },
-        {
-            id: 4,
-            img: 'https://i.postimg.cc/0yX8LYxx/gaming.png',
-            title: "Scientific Calculator ",
-            desc: "",
-            link: "https://practice-game-site-project-reactjs.netlify.app/",
-            git: "https://github.com/Deksha-chaudhary/Scientific_Calculator.git",
-        },
-        {
-            id: 5,
-            img: 'https://i.postimg.cc/0yX8LYxx/gaming.png',
-            title: "Weather Application ",
-            desc: "",
-            link: "https://practice-game-site-project-reactjs.netlify.app/",
-            git: "https://github.com/Deksha-chaudhary/weather.git",
-        },
+        
     ]
 
 }

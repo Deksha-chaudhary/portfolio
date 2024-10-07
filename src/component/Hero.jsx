@@ -3,7 +3,7 @@ import { AiFillTwitterCircle, AiFillGithub, AiFillInstagram, } from "react-icons
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode,SiHackerrank } from "react-icons/si";
 import { TypeAnimation } from "react-type-animation";
 import { personalDataObj } from "../data/data";
 import resumePDF from '../assets/Resume.pdf'
@@ -21,19 +21,19 @@ const Hero = () => {
         },
         {
             name: 'Linkdin',
-            url: 'https://www.linkedin.com/in/deksha-chaudhary-45aa022a5/',
+            url: 'https://www.linkedin.com/in/km-dharmwati-45aa022a5/',
             icon: <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
         },
         {
             name: 'Leetcode',
-            url: 'https://leetcode.com/profile/',
+            url: 'https://leetcode.com/u/Deksha/',
             icon: <SiLeetcode className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
         },
-        // {
-        // name: 'HackerRank',
-        // url: 'https://www.hackerrank.com/dashboard',
-        // icon: <SiHackerrank className="h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
-        // }
+        {
+        name: 'HackerRank',
+        url: 'https://www.hackerrank.com/profile/dharmwati_090_B',
+        icon: <SiHackerrank className="h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+        }
     ]
     const redirectToUrl = (item) => {
         window.open(item.url, "_blank");
