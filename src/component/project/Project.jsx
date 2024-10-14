@@ -5,7 +5,7 @@ import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const Project = () => {
+const Project = () =>{
   return (
     <div id="works" className="container m-auto mt-16">
       {/* heading */}

@@ -108,7 +108,7 @@ const Hero = () => {
                                 height: '450px',    
                                 borderRadius: '50%', 
                                 objectFit: 'cover',  
-                                border: '2px solid black' 
+                                border: '2px ' 
 
                             }}
 

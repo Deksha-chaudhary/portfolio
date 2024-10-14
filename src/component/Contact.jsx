@@ -5,9 +5,9 @@ import { send } from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 export const _emailConfig = {
-    _serviceId: "service_rzg319l",
-    _templateId: "template_wdoazvj",
-    _userId: "TQqB6yo4iDwKgNeKl"
+    _serviceId: "service_6m64fvd",
+    _templateId: "template_h3borwf",
+    _userId: "ao6tmlnT9GY0rehXf"
 }
 
 
