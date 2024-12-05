@@ -1,6 +1,6 @@
 
 export const personalDataObj = {
-    name: "Kumari Dharamwati",
+    name: "Kumari Dharmwati",
     about: '',
     experience: [],
     education: [
