@@ -2,10 +2,11 @@ import React from "react";
 import SkillBox from "./SkillBox";
 import ProgressBar from "./ProgressBar";
 import { IoLogoHtml5, IoLogoCss3, IoLogoSkype, IoLogoJavascript, IoLogoGithub, IoLogoNodejs } from "react-icons/io";
-import { SiJavascript, SiTailwindcss, SiMongodb, SiExpress, SiBootstrap, SiNextdotjs, SiReact, SiAntdesign,SiMysql } from "react-icons/si";
+import { SiJavascript, SiTailwindcss, SiMongodb, SiExpress, SiBootstrap,SiSpringboot, SiNextdotjs, SiReact, SiAntdesign,SiMysql } from "react-icons/si";
 import { FaReact, } from "react-icons/fa";
 import { FaJava, FaCopyright,FaPython,FaDatabase} from "react-icons/fa";
 import { DiJavascript} from "react-icons/di";
+
 
 const Skills = ({ darkMode }) => {
 
@@ -15,7 +16,7 @@ const Skills = ({ darkMode }) => {
         { name: "React Js ", percentage: '85', icon: <SiReact /> },
         { name: "DSA", percentage: '75', icon: <FaDatabase /> },
         { name: "C", percentage: '85', icon: <FaCopyright /> },
-        { name: "Python", percentage: '50', icon: <FaPython /> },
+        { name: "Spring Boot", percentage: '50', icon: <SiSpringboot /> },
         { name: "MySql", percentage: '90', icon: <SiMysql /> },
         { name: "Javascript", percentage: '80', icon: <SiJavascript /> },
         { name: "HTML", percentage: '90', icon: <IoLogoHtml5 /> },
